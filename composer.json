@@ -1,0 +1,23 @@
+{
+    "name": "sjaakp/yii2-cycle2",
+    "description": "Cycle2 jQuery slide show for Yii 2.0",
+    "keywords": ["yii", "yii2", "extension", "widget", "cycle", "slides", "slideshow"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sjaak Priester",
+            "email": "sjaak@sjaakpriester.nl",
+            "homepage": "http://sjaakpriester.nl"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jquery-cycle2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sjaakp\\cycle\\": ""
+        }
+    }
+}
