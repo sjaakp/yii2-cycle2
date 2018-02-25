@@ -123,7 +123,7 @@ class Cycle extends Widget {
         if (isset($options['youtube'])) $plugins[] = 'video';
 
         $pluginBase = Yii::$app->assetManager->getPublishedUrl('@bower/jquery-cycle2/build') . '/plugin/jquery.cycle2.';
-        foreach ($plugins as $plugin) $view->registerJsFile($pluginBase . $plugin. '.min.js', [ 'depends' => CycleAsset::className()]);
+        foreach ($plugins as $plugin) $view->registerJsFile($pluginBase . $plugin. '.min.js', [ 'depends' => CycleAsset::class]);
 
         $allAttributes = [];
 
