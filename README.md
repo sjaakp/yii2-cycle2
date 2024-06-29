@@ -3,6 +3,10 @@ yii2-cycle2
 
 #### Cycle2 jQuery slide show for Yii 2.0 ####
 
+[![Latest Stable Version](https://poser.pugx.org/sjaakp/yii2-cycle2/v/stable)](https://packagist.org/packages/sjaakp/yii2-cycle2)
+[![Total Downloads](https://poser.pugx.org/sjaakp/yii2-cycle2/downloads)](https://packagist.org/packages/sjaakp/yii2-cycle2)
+[![License](https://poser.pugx.org/sjaakp/yii2-cycle2/license)](https://packagist.org/packages/sjaakp/yii2-cycle2)
+
 **yii2-cycle2** is a widget to render the excellent [Cycle2](http://jquery.malsup.com/cycle2/) jQuery slideshow widget in the [Yii 2.0](http://www.yiiframework.com/ "Yii") PHP Framework. Like a [GridView](http://www.yiiframework.com/doc-2.0/yii-grid-gridview.html "Yii"), its data is fed from an [ActiveDataProvider](http://www.yiiframework.com/doc-2.0/yii-data-activedataprovider.html "Yii") (or, more generally, from a class derived from [BaseDataProvider](http://www.yiiframework.com/doc-2.0/yii-data-basedataprovider.html "Yii")).  
 
 A demonstration of **Yii2-cycle2** is [here](http://www.sjaakpriester.nl/software/cycle).
